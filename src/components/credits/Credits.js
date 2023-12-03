@@ -14,8 +14,8 @@ export default function Credits() {
                     <Typography variant={"body1"} component={"div"}>
                         <span style={{fontWeight: "bold"}}>Responsables du projet</span>
                         <br/>
-                        Inès Rahmouni <br/>
                         Clara Brunel <br/>
+                        Inès Rahmouni <br/>
                     </Typography>
                 </Grid>
                 <Grid item xs={6} lg={2}>
@@ -29,12 +29,12 @@ export default function Credits() {
                     <Typography variant={"body1"} component={"div"}>
                         <span style={{fontWeight: "bold"}}>Equipe projet :</span>
                         <br/>
-                        Teddy <br/>
-                        Lina Arnaud<br/>
+                        Aurélie le Tarnec <br/>
                         Aymeric Paquiot<br/>
-                        Timothée Vaccaro<br/>
-                        Aurélie<br/>
                         Bruno Koubi <br/>
+                        Lina Arnaud<br/>
+                        Teddy Lutringer <br/>
+                        Timothée Vaccaro<br/>
                     </Typography>
                 </Grid>
                 <Grid item xs={6} lg={2}>
@@ -42,7 +42,7 @@ export default function Credits() {
                         <span style={{fontWeight: "bold"}}>Experts associés :</span>
                         <br/>
                         Baptiste Verneuil <br/>
-                        Mathis <br/>
+                        Mathis Egnell<br/>
                     </Typography>
                 </Grid>
                 <Grid item xs={6} lg={2}>
@@ -50,8 +50,9 @@ export default function Credits() {
                         <span style={{fontWeight: "bold"}}>Organisateurs de la journée transition environnementale à l’EHESP :</span>
                         <br/>
                         Carla Fé<br/>
-                        Mathilde Moanert<br/>
                         Marie Chevreux <br/>
+                        Mathilde Moanert<br/>
+                        Timothée Vaccaro <br/>
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
@@ -61,8 +62,7 @@ export default function Credits() {
                         <br/>
                     </Typography>
                     <Typography variant={"body1"} component={"div"}>
-                        Pour laisser un commentaire, envoyer un mail <a href={`mailto:test@example.com`} >test@example.com</a>
-
+                        Pour laisser un commentaire, envoyer un mail <a href={`mailto:hopital-vert@googlegroups.com`} >hopital-vert@googlegroups.com</a>
                     </Typography>
 
 
@@ -73,9 +73,9 @@ export default function Credits() {
                     <Typography variant={"body1"} component={"div"}>
                         <span style={{fontWeight: "bold"}}>Licence</span>
                         <br/>
-                        Ce projet est diffusé sous licence <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">CC BY-NC</a>
+                        Ce projet est diffusé sous licence <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">CC BY-NC</a>.
                         <br/>
-                        Le code source est disponible sous <a href="https://github.com/uazech/hopital-vert">github</a>
+                        Le code source est disponible sous <a href="https://github.com/uazech/hopital-vert">github</a>.
                     </Typography>
                 </Grid>
             </Grid>

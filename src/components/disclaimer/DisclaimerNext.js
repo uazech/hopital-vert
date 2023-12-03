@@ -1,13 +1,12 @@
 import * as React from 'react';
 import {BottomNavigation, Paper} from "@mui/material";
-import StartIcon from '@mui/icons-material/Start';
 import {BottomStyled} from "../BottomStyled";
 import ProgressBar from "../ProgressBar";
+import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 
-export default function HomeNext() {
-
-
+export default function DisclaimerNext() {
     return (
 
         <Paper sx={{position: 'fixed', bottom: 0, left: 0, right: 0, height: '8vh'}} elevation={3}>
@@ -16,7 +15,8 @@ export default function HomeNext() {
             <BottomNavigation
                 showLabels
             >
-                <BottomStyled icon={<StartIcon/>} label="Démarrer" href={"/disclaimer"}/>
+                <BottomStyled icon={<NavigateBeforeIcon/>} label="Précédent" href={"/"}/>
+                <BottomStyled icon={<NavigateNextIcon/>} label="Suivant" href={"/situation"}/>
             </BottomNavigation>
         </Paper>
     );

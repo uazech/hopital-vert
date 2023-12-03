@@ -8,11 +8,16 @@ import Fin from "./components/fin/Fin";
 import {Admin} from "./components/admin/Admin";
 import Bilan from "./components/bilan/Bilan";
 import Credits from "./components/credits/Credits";
+import Disclaimer from "./components/disclaimer/Disclaimer";
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <Home/>
+    },
+    {
+        path: "/disclaimer",
+        element: <Disclaimer/>
     },
     {
         path: "/situation",
