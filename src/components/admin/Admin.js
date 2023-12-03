@@ -36,12 +36,13 @@ export function Admin() {
                 >
                     <Box sx={{color: 'text.primary', marginBottom: 1}}>Session de jeu </Box>
                     <Typography sx={{color: 'text.secondary'}} component="p" variant={"body1"}>
-                        Veuillez indiquer un nom de session de jeu unique afin d'obtenir un lien partageable aux
+                        Veuillez indiquer un nom de session de jeu afin d'obtenir un lien partageable aux
                         participants.
                     </Typography>
                     <Typography sx={{color: 'text.secondary'}} component="p" variant={"body2"}>
-                        Cette session vous permettra de suivre en live les réponses de vos participants.
+                        Sur cette page, vous pourrez suivre en live les réponses des participants une fois la session créée et partagée.
                     </Typography>
+                    <br/>
                     <div style={{verticalAlign: "center", marginTop: 4}}>
                         <TextField id="standard-basic" onChange={(event) => setFieldSession(event.target.value)}
                                    label="Nom de session"
